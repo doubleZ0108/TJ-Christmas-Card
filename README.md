@@ -92,12 +92,12 @@
 
 ## 关于我们
 
-|  姓名  |        学院         |        分工       |                             头像                             |
-| :----------: | :-----------------: | :--------------------------: | :----------------------------------------------------------: |
-|  张喆  |    软件学院 17级    | 项目发起人、PM | <img src="README.assets/zz-avatar.JPG" alt="zz-avatar" width="20%;" /> |
-| 陈开昕 |    软件学院 17级    | 美术 | <img src="README.assets/ckx-avatar.JPG" alt="ckx-avatar" width="20%;" /> |
-| 陈中悦 |    软件学院 19级    | 代码实现 | <img src="README.assets/czy-avatar.JPG" alt="czy-avatar" width="20%;" /> |
-| 傅薏帆 | 新生院济勤学堂 20级 | 文案 | <img src="README.assets/fyf-avatar.JPG" alt="fyf-avatar" width="20%;" /> |
+|  姓名  |        学院         |      分工      |                           联系方式                           |                    头像                     |
+| :----: | :-----------------: | :------------: | :----------------------------------------------------------: | :-----------------------------------------: |
+|  张喆  |    软件学院 17级    | 项目发起人、PM | [doublez@alumni.tongji.edu.cn](mailto:doublez@alumni.tongji.edu.cn) |  ![zz-avatar](README.assets/zz-avatar.JPG)  |
+| 陈开昕 |    软件学院 17级    |      美术      |  [sternstarry18@gmail.com](mailto:sternstarry18@gmail.com)   | ![ckx-avatar](README.assets/ckx-avatar.JPG) |
+| 陈中悦 |    软件学院 19级    |    代码实现    |        [1418621447@qq.com](mailto:1418621447@qq.com)         | ![czy-avatar](README.assets/czy-avatar.JPG) |
+| 傅薏帆 | 新生院济勤学堂 20级 |      文案      |                              /                               | ![fyf-avatar](README.assets/fyf-avatar.JPG) |
 
 <br/>
 
