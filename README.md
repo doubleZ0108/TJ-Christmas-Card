@@ -40,7 +40,9 @@
 
 ## 主要功能
 
-- [x] xxx
+- [x] 输入头像和昵称，生成圣诞专属贺卡
+- [x] 使用selenium 通过浏览器自动化登陆163邮箱获取已注册用户的学号信息
+- [x] 发送圣诞贺卡至已用户邮箱
 
 
 
@@ -48,9 +50,34 @@
 
 ## 如何使用
 
-1. xxx
+1. 生成圣诞贺卡
 
+   ```shell
+   > cd src
+   # gen_card.py中ln70 ava_path和ln73 text修改为头像路径和昵称
+   
+   > python gen_card.py
+   ```
 
+2. 登陆163邮箱
+
+   ```shell
+   > cd src
+   # login_163.py中ln17输入邮箱密码
+   
+   > python login_163.py
+   ```
+
+3. 发送邮件
+
+   ```shell
+   > cd src
+   # post_email.py中ln57输入邮箱授权码;ln64输入待发送贺卡路径;ln65输入收件人邮箱
+   
+   > python post_email.py
+   ```
+
+   
 
 <br/>
 
@@ -60,7 +87,8 @@
 >
 > 还可以做的更好的
 
-- [ ] yyy
+- [ ] 解决使用163邮箱自动批量发送邮件失败
+- [ ] 使用`requests`库和`cookie`登陆163邮箱而非浏览器自动化
 
 
 

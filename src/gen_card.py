@@ -40,7 +40,7 @@ def add_text_to_card_img(image,text,x_size=2.0,y_size=3.0):
     p_x,p_y=int(b_w/x_size),int(b_h/y_size) # position of text
     size=(p_x,p_y)
     text_size = 50
-    setFont = ImageFont.truetype(font=r"resource\仓耳小丸子.ttf",size=text_size)
+    setFont = ImageFont.truetype(font=r"..\resource\仓耳小丸子.ttf",size=text_size)
 
     draw = ImageDraw.Draw(image)
     draw.text(size, text, font=setFont,fill='white')
@@ -67,10 +67,10 @@ def gen_card(ava_path,back_path,card_path,text,card_name='card',w_size=4.8,h_siz
 
 
 if __name__=='__main__':
-    ava_path=r'resource\ava.jpg'
-    back_path=r'resource\lvse.png'
-    card_path=r'resource\card.png'
-    text='round'
+    ava_path=r'..\resource\ava.jpg' # 头像路径
+    back_path=r'..\resource\lvse.png'
+    card_path=r'..\resource\card.png'
+    text='round' # 昵称
     gen_card(ava_path,back_path,card_path,text)
 
 

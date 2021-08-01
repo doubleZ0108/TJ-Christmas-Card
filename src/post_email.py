@@ -5,8 +5,7 @@ from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
 from email.utils import parseaddr, formataddr
 import smtplib
-import csv
-import time
+
 
 def _format_addr_(s):
     name, addr=parseaddr(s)
@@ -55,11 +54,17 @@ def write_email(pic_path,from_addr,to_addr):
 
 
 from_addr="Six_past_Twenty4@163.com" # 发件邮箱
-password="" # 发件邮箱的psd
-smtp_server="smtp.163.com" # 邮箱的smtp
+password="" # 发件邮箱的授权码
+smtp_server="smtp.163.com"
 
 server=smtplib.SMTP(smtp_server,25)
 server.login(from_addr,password)
+
+if __name__=="__main__":
+    card_path="xxx" # 贺卡路径
+    to_addr="xxx" # 收件邮箱
+    msg = write_email(card_path, from_addr, to_addr)
+    server.sendmail(from_addr, [to_addr], msg.as_string())
 
 
 
